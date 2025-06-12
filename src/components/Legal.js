@@ -44,14 +44,14 @@ const Legal = () => {
               <div className="contact-emails">
                 <div className="contact-item">
                   <span className="contact-label">Legal Inquiries:</span>
-                  <a href="mailto:notices@getzorara.online" className="contact-email">
-                    notices@getzorara.online
+                  <a href="mailto:notices@getdrift.me" className="contact-email">
+                    notices@getdrift.me
                   </a>
                 </div>
                 <div className="contact-item">
                   <span className="contact-label">DMCA Notices:</span>
-                  <a href="mailto:dmca@getzorara.online" className="contact-email">
-                    dmca@getzorara.online
+                  <a href="mailto:dmca@getdrift.me" className="contact-email">
+                    dmca@getdrift.me
                   </a>
                 </div>
               </div>
