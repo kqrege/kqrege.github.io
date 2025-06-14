@@ -29,17 +29,24 @@ const Legal = () => {
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.3 }}
             viewport={{ once: true }}
-          >            <p className="legal-text">
+          >
+            <p className="legal-text">
               Drift, its development team, and associated contributors do not endorse or support any form of cheating, unlawful activity, or malicious conduct.
             </p>
             
             <p className="legal-text">
               Drift is an Integrated Development Environment (IDE) specifically designed for game developers to test their Roblox® projects in a controlled, private environment; without requiring public updates or affecting live gameplay.
             </p>
-              <p className="legal-text">
+            <p className="legal-text">
               Drift and its team are not affiliated with Roblox® or The Roblox Corporation. For legal inquiries or DMCA notices, please reach out to one of the emails below.
             </p>
-              <div className="contact-section">
+            
+            <div className="legal-links">
+              <a href="/legal/terms" className="legal-link">Terms of Service</a>
+              <a href="/legal/privacy" className="legal-link">Privacy Policy</a>
+            </div>
+            
+            <div className="contact-section">
               <h4 className="contact-title">Legal Contacts</h4>              
               <div className="contact-emails">
                 <div className="contact-item">
