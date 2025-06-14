@@ -27,6 +27,10 @@ const Footer = () => {
           <div className="footer-links">
             <a href="#legal" className="footer-link">Legal</a>
             <span className="footer-separator">•</span>
+            <a href="/#/legal/terms" className="footer-link">Terms</a>
+            <span className="footer-separator">•</span>
+            <a href="/#/legal/privacy" className="footer-link">Privacy</a>
+            <span className="footer-separator">•</span>
             <a href="mailto:support@drift-ide.com" className="footer-link">Support</a>
             <span className="footer-separator">•</span>
             <a href="#features" className="footer-link">Features</a>

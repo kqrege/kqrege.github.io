@@ -42,8 +42,8 @@ const Legal = () => {
             </p>
             
             <div className="legal-links">
-              <a href="/legal/terms" className="legal-link">Terms of Service</a>
-              <a href="/legal/privacy" className="legal-link">Privacy Policy</a>
+              <a href="/#/legal/terms" className="legal-link">Terms of Service</a>
+              <a href="/#/legal/privacy" className="legal-link">Privacy Policy</a>
             </div>
             
             <div className="contact-section">
