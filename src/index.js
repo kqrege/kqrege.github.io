@@ -12,8 +12,8 @@ root.render(
     <HashRouter>
       <Routes>
         <Route path="/" element={<App />} />
-        <Route path="/legal/terms" element={<Terms />} />
-        <Route path="/legal/privacy" element={<Privacy />} />
+        <Route path="legal/terms" element={<Terms />} />
+        <Route path="legal/privacy" element={<Privacy />} />
       </Routes>
     </HashRouter>
   </React.StrictMode>
